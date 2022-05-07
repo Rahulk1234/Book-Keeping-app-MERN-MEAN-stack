@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 
-mongoose.connect( 'mongodb+srv://rahulkcr97:Be@rkman12@cluster0.cpbpk.mongodb.net/test' , {
+mongoose.connect( '**** mongo url *****' , {
     //userFindAndModify: false,
   // userUnifiedTopology: true,
 //    userCreateIndex: true,
